@@ -1,0 +1,311 @@
+[
+    {
+      "title": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Brave New World",
+      "author": "Aldous Huxley",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Grapes of Wrath",
+      "author": "John Steinbeck",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Road",
+      "author": "Cormac McCarthy",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Alchemist",
+      "author": "Paulo Coelho",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Bell Jar",
+      "author": "Sylvia Plath",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Catch-22",
+      "author": "Joseph Heller",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Wuthering Heights",
+      "author": "Emily Brontë",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Crime and Punishment",
+      "author": "Fyodor Dostoevsky",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Count of Monte Cristo",
+      "author": "Alexandre Dumas",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Brothers Karamazov",
+      "author": "Fyodor Dostoevsky",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Sound and the Fury",
+      "author": "William Faulkner",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Little Women",
+      "author": "Louisa May Alcott",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Old Man and the Sea",
+      "author": "Ernest Hemingway",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Diary of a Young Girl",
+      "author": "Anne Frank",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "A Tale of Two Cities",
+      "author": "Charles Dickens",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Jane Eyre",
+      "author": "Charlotte Brontë",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Animal Farm",
+      "author": "George Orwell",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Kite Runner",
+      "author": "Khaled Hosseini",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Da Vinci Code",
+      "author": "Dan Brown",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Fault in Our Stars",
+      "author": "John Green",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Night Circus",
+      "author": "Erin Morgenstern",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Book Thief",
+      "author": "Markus Zusak",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Perks of Being a Wallflower",
+      "author": "Stephen Chbosky",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Help",
+      "author": "Kathryn Stockett",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Eleanor Oliphant Is Completely Fine",
+      "author": "Gail Honeyman",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Where the Crawdads Sing",
+      "author": "Delia Owens",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Circe",
+      "author": "Madeline Miller",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Silent Patient",
+      "author": "Alex Michaelides",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Normal People",
+      "author": "Sally Rooney",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Vanishing Half",
+      "author": "Brit Bennett",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Water Dancer",
+      "author": "Ta-Nehisi Coates",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Homegoing",
+      "author": "Yaa Gyasi",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "Anxious People",
+      "author": "Fredrik Backman",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    },
+    {
+      "title": "The Midnight Library",
+      "author": "Matt Haig",
+      "status": "to_read",
+      "review": "",
+      "rating": 0
+    }
+  ]
+  

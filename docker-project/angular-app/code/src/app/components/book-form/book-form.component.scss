@@ -1,0 +1,57 @@
+// Formulaire principal
+.form-container {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  
+    h2 {
+      text-align: center;
+      font-size: 1.8rem;
+      color: #3f51b5; // Couleur principale du thème
+      margin-bottom: 1.5rem;
+    }
+  
+    mat-form-field {
+      width: 100%;
+      margin-bottom: 1rem;
+  
+      mat-label {
+        color: rgba(0, 0, 0, 0.6);
+      }
+  
+      input, textarea {
+        font-size: 1rem;
+      }
+    }
+  
+    // Bouton de soumission
+    button {
+      display: block;
+      width: 100%;
+      font-size: 1rem;
+      font-weight: bold;
+      color: white;
+      background-color: #3f51b5; // Couleur principale du thème
+  
+      &:hover {
+        background-color: #303f9f;
+      }
+    }
+  }
+  
+  // Apparence des champs de saisie
+  ::ng-deep .mat-form-field-appearance-fill .mat-form-field-flex {
+    background-color: #f1f1f1;
+  }
+  
+  ::ng-deep .mat-focused .mat-form-field-label {
+    color: #3f51b5 !important; // Couleur principale du thème
+  }
+  
+  ::ng-deep .mat-form-field.mat-focused .mat-form-field-ripple {
+    background-color: #3f51b5 !important;
+  }
+  

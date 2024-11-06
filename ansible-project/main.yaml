@@ -1,0 +1,28 @@
+---
+- hosts: localhost
+  connection: local
+  become: true
+  tasks:
+
+    - name: S'assurer que Docker est installé
+      apt:
+        name: docker.io
+        state: present
+
+    - name: S'assurer que Docker Compose est installé
+      apt:
+        name: docker-compose
+        state: present
+
+    - name: Démarrer les conteneurs Docker
+      community.docker.docker_compose_v2:
+        project_src: /home/debian/docker-project/
+        state: present
+
+    - name: S'assurer que les conteneurs tournent
+      community.docker.docker_container_info:
+        name: "{{ item }}"
+      with_items:
+        - mongodb
+        - nestjs
+        - angular

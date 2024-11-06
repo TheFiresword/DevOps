@@ -1,0 +1,15 @@
+services:
+  mongodb:
+    description: "A mongodb server for our project"
+    method: Docker
+    IP: 172.21.0.2
+
+  nestjs:
+    descripiton: "A backend server to manage our app"
+    method: Docker
+    IP: 172.21.0.3
+
+  angular:
+    description: "The frontend of our app"
+    method: Docker & nginx
+    IP: 172.21.0.4

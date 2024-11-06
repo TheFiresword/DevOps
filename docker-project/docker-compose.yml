@@ -1,0 +1,38 @@
+services:
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_INITDB_ROOT_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_INITDB_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: ${MONGO_INITDB_DATABASE}
+    volumes:
+      - ./mongodb/init:/docker-entrypoint-initdb.d/
+    restart: always
+
+  nestjs:
+    build: ./nestjs-app
+    container_name: nestjs
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./nestjs-app/code:/app
+      - /app/node_modules
+    environment:
+      NODE_ENV: development
+      DATABASE_URL: ${DATABASE_URL}
+    depends_on:
+      - mongodb
+    restart: always
+
+  angular:
+    build: ./angular-app
+    container_name: angular
+    depends_on:
+      - nestjs
+    ports:
+      - "8080:80"
+    restart: always

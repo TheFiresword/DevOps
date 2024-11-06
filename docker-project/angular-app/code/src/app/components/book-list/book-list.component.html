@@ -1,0 +1,17 @@
+<div class="book-list-container">
+    <h1>My Book Collection</h1>
+    <div *ngIf="books.length === 0" class="no-books">
+      <p>No books found. Start by adding some books to your list!</p>
+    </div>
+    <div class="books-grid">
+      <div *ngFor="let book of books" class="book-card">
+        <h2>{{ book.title | titlecase }}</h2>
+        <p class="author">by {{ book.author | titlecase }}</p>
+        <p class="status">Status: <span [ngClass]="book.status">{{ book.status | titlecase }}</span></p>
+        <p class="rating">Rating: <span>{{ book.rating }}/5</span></p>
+        <p class="review" *ngIf="book.review">Review: "{{ book.review }}"</p>
+        <p class="no-review" *ngIf="!book.review">No review yet.</p>
+      </div>
+    </div>
+  </div>
+  
